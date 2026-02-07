@@ -66,9 +66,15 @@ export const HeroSection = () => {
           </Reveal>
 
           <h1 className="font-display font-black leading-[0.9] mb-6 tracking-tight drop-shadow-2xl">
-            <span className={`${heroColors.highlight} ${heroColors.size} ${heroColors.glow}`}>Pare de Perder</span>
+            <span className={`${heroColors.size}`} style={{
+              color: '#ff1a52',
+              textShadow: '0 0 8px rgba(255, 26, 82, 0.8), 0 0 15px rgba(255, 26, 82, 0.5), 0 0 25px rgba(255, 26, 82, 0.3)'
+            }}>Pare de Perder</span>
             <br />
-            <span className={`${heroColors.money} ${heroColors.size} ${heroColors.glow}`}>Dinheiro</span>{" "}
+            <span className={`${heroColors.size}`} style={{
+              color: '#ff1a52',
+              textShadow: '0 0 8px rgba(255, 26, 82, 0.8), 0 0 15px rgba(255, 26, 82, 0.5), 0 0 25px rgba(255, 26, 82, 0.3)'
+            }}>Dinheiro</span>{" "}
             <span className={`${heroColors.standard} ${heroColors.size} italic`}>com</span>
             <br />
             <span className={`${heroColors.standard} ${heroColors.size} italic`}>Anúncios Que </span>
